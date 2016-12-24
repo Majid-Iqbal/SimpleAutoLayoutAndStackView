@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailVC.swift
 //  Pak_Capital
 //
 //  Created by Majid on 09/12/2016.
@@ -8,18 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailVC: UIViewController {
 
+    @IBOutlet weak var backBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        backBtn.clipsToBounds = true
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
- 
+    @IBAction func back(_ sender: Any) {
+        
+    dismiss(animated: true, completion: nil)
+    }
+
 }
-

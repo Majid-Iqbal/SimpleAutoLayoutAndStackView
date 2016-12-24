@@ -1,26 +1,273 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pak_Capital" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zoo" translatesAutoresizingMaskIntoConstraints="NO" id="Erz-A4-N7f">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="jed-wb-XUr">
+                                <rect key="frame" x="16" y="20" width="121" height="64.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OUTDOOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36T-fr-c2T">
+                                        <rect key="frame" x="0.0" y="0.0" width="87" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADVENTURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eig-jl-Bjq">
+                                        <rect key="frame" x="0.0" y="21.5" width="121" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YG6-iW-tTN">
+                                        <rect key="frame" x="0.0" y="43" width="38" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rOm-Xu-mKd">
+                                <rect key="frame" x="17" y="170.5" width="248" height="102"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISLAMABAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02l-Iq-0NG">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="51"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UF1-yT-CEX">
+                                        <rect key="frame" x="0.0" y="51" width="248" height="51"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="42w-qn-vyq"/>
+                                    <constraint firstAttribute="height" constant="102" id="9oh-bw-1Vy"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="AJ5-af-Rku">
+                                <rect key="frame" x="16" y="508" width="253" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="GO8-QZ-tqq">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="MN0-f9-dsa"/>
+                                            <constraint firstAttribute="height" constant="40" id="Qft-pg-VRF"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISLAMABAD, PAKISTAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1S-Mb-5Te">
+                                        <rect key="frame" x="45" y="18.5" width="208" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LgG-Jx-qne">
+                                <rect key="frame" x="107.5" y="469" width="105" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="RAW-Ul-Nrw"/>
+                                    <constraint firstAttribute="height" constant="40" id="pgF-kp-qMl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sq3-tf-LRg" kind="show" id="aFv-nW-BYA"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jed-wb-XUr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2PP-Et-zcS"/>
+                            <constraint firstItem="LgG-Jx-qne" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="36N-gR-cb4"/>
+                            <constraint firstItem="jed-wb-XUr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DKO-IP-r7t"/>
+                            <constraint firstItem="Erz-A4-N7f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HoS-yh-eXP"/>
+                            <constraint firstItem="AJ5-af-Rku" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Msm-Kp-wlA"/>
+                            <constraint firstItem="rOm-Xu-mKd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="P2W-Ls-vDp"/>
+                            <constraint firstItem="rOm-Xu-mKd" firstAttribute="top" secondItem="jed-wb-XUr" secondAttribute="bottom" constant="86" id="UTM-RA-oD4"/>
+                            <constraint firstItem="Erz-A4-N7f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WCy-jp-qMH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Erz-A4-N7f" secondAttribute="bottom" id="aUQ-h0-UJ8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AJ5-af-Rku" secondAttribute="bottom" constant="20" id="cKK-m5-JyR"/>
+                            <constraint firstAttribute="trailing" secondItem="Erz-A4-N7f" secondAttribute="trailing" id="coe-Mz-4Un"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LgG-Jx-qne" secondAttribute="bottom" constant="59" id="gRD-KE-L1m"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.875" y="138.38028169014083"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="Hyg-7p-OX2">
+            <objects>
+                <viewController id="sq3-tf-LRg" customClass="DetailVC" customModule="Pak_Capital" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mUd-9E-RF6"/>
+                        <viewControllerLayoutGuide type="bottom" id="hGn-DV-ebf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eRV-CR-L9G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rKF-WL-nMH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail" translatesAutoresizingMaskIntoConstraints="NO" id="BXb-gy-NjY">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="Agb-mX-h2H"/>
+                                            <constraint firstAttribute="height" constant="232" id="Q8r-Lh-HTU"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Hkm-HR-e1G">
+                                <rect key="frame" x="16" y="241" width="293" height="302"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6g4-uN-px9">
+                                        <rect key="frame" x="0.0" y="0.0" width="293" height="238"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbe-gu-aIt">
+                                                <rect key="frame" x="0.0" y="0.0" width="66" height="21"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0Z-hR-b2S">
+                                                <rect key="frame" x="0.0" y="21" width="293" height="217"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="293" id="YjZ-v2-zQI"/>
+                                                    <constraint firstAttribute="height" constant="217" id="dzq-of-pbF"/>
+                                                </constraints>
+                                                <string key="text">Islamabad Zoo, previously Marghazar Zoo, is an 82-acre zoo in Islamabad Capital Territory. It was opened in 1978, and is under the administration of Capital Development Authority of Pakistan.t soon gained popularity and became a part of the Japanese garden. An aviary was later constructed. The Capital Development Authority devised a plan in August 2008 to upgrade and extend the zoo as a recreational area and wildlife sanctuary.</string>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GLH-Ti-P2j">
+                                        <rect key="frame" x="0.0" y="238" width="290.5" height="38"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4m-05-GQk">
+                                                <rect key="frame" x="0.0" y="0.0" width="58.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpB-3J-HGV">
+                                                <rect key="frame" x="68.5" y="0.0" width="222" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="38" id="9NL-fS-XdR"/>
+                                                    <constraint firstAttribute="width" constant="222" id="Agu-HW-NaF"/>
+                                                </constraints>
+                                                <string key="text">Pir Sohawa Road، Islamabad 54000, Pakistan
+
+</string>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oR5-Sa-ySx">
+                                        <rect key="frame" x="0.0" y="276" width="191.5" height="26"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kek-wr-oMo">
+                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="26"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" +92 300 2105669" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Cc-2j-OzF">
+                                                <rect key="frame" x="59.5" y="0.0" width="132" height="26"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="132" id="RSk-Wc-3qG"/>
+                                                    <constraint firstAttribute="height" constant="26" id="WCb-oT-0vF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="6Cc-2j-OzF" secondAttribute="bottom" id="Xnl-mY-3IC"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evB-cA-dGC">
+                                <rect key="frame" x="257" y="174" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.089263750710000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="5RZ-ce-Sa4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="back:" destination="sq3-tf-LRg" eventType="touchUpInside" id="Ibo-14-8eA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hkm-HR-e1G" firstAttribute="leading" secondItem="eRV-CR-L9G" secondAttribute="leading" constant="16" id="AXA-UF-IC6"/>
+                            <constraint firstItem="rKF-WL-nMH" firstAttribute="leading" secondItem="eRV-CR-L9G" secondAttribute="leading" id="HsA-as-N69"/>
+                            <constraint firstItem="Hkm-HR-e1G" firstAttribute="top" secondItem="rKF-WL-nMH" secondAttribute="bottom" constant="8.5" id="Il1-YB-n8o"/>
+                            <constraint firstItem="Hkm-HR-e1G" firstAttribute="top" secondItem="evB-cA-dGC" secondAttribute="bottom" constant="17" id="Pas-gB-4ob"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="evB-cA-dGC" secondAttribute="trailing" constant="-3" id="Vl7-3P-KTE"/>
+                            <constraint firstItem="rKF-WL-nMH" firstAttribute="top" secondItem="eRV-CR-L9G" secondAttribute="top" id="fiy-UV-CT5"/>
+                            <constraint firstItem="hGn-DV-ebf" firstAttribute="top" secondItem="Hkm-HR-e1G" secondAttribute="bottom" constant="25" id="gwI-Nv-Acp"/>
+                            <constraint firstAttribute="trailing" secondItem="rKF-WL-nMH" secondAttribute="trailing" id="jPN-Wd-Fqg"/>
+                            <constraint firstItem="evB-cA-dGC" firstAttribute="top" secondItem="mUd-9E-RF6" secondAttribute="bottom" constant="154" id="paY-Ke-g5g"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backBtn" destination="evB-cA-dGC" id="d8M-gb-iyd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jro-4e-PLH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="153"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Zoo" width="637" height="475"/>
+        <image name="compass" width="64" height="64"/>
+        <image name="detail" width="275" height="183"/>
+    </resources>
 </document>
